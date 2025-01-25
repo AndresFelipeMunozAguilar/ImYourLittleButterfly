@@ -266,8 +266,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -104415699
-  m_SortingLayer: 2
+  m_SortingLayerID: 1136371899
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -4317130143076399817, guid: 71a8fdc0745c5bf45932924f7b444389, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -347,7 +347,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &193836666
 RectTransform:
   m_ObjectHideFlags: 0
@@ -639,8 +639,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 64, y: -2}
-  m_SizeDelta: {x: -387.303, y: -195.83}
+  m_AnchoredPosition: {x: 42.731018, y: -0.000030517578}
+  m_SizeDelta: {x: -341.376, y: -198.358}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &456916668
 MonoBehaviour:
@@ -664,8 +664,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e59328045ea33d64fa2c71cc58b8029f, type: 2}
+  m_sharedMaterial: {fileID: -3589952571140577542, guid: e59328045ea33d64fa2c71cc58b8029f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -689,8 +689,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 200
-  m_fontSizeBase: 200
+  m_fontSize: 140
+  m_fontSizeBase: 140
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1288,7 +1288,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueLines:
-  - "Primer di\xE1logo asi bien laaaaaaaaaaaaaaargo"
+  - Primer dialogo asi bien laaaaaaaaaaaaaaargo
   - dialogo doooos
   - 'yo cuando dialogo 3: '
   dialoguePanel: {fileID: 193836665}
