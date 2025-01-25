@@ -234,7 +234,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mariposa 1_0: 606963974834133632
+      mariposa 1_1: -3673066283484991666
+      mariposa 1_2: -7533218915933972062
+      mariposa 1_3: 4021169083634813509
+      mariposa 1_4: 8277699408381124363
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
