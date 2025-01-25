@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 3621214304881535995}
   - component: {fileID: 5179632761131330069}
   - component: {fileID: 1285439599372575859}
-  - component: {fileID: 3721375464506493815}
+  - component: {fileID: -7071062380353834556}
   m_Layer: 0
-  m_Name: Collectibles
+  m_Name: Collectibles_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 3147136952484043211}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -4.9100747, y: -4.413331, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -79,7 +79,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 606963974834133632, guid: f281531e101183d4292c68541f0f7621, type: 3}
+  m_Sprite: {fileID: -8620983304380022606, guid: b25eeb6272414184ba0f6b93ee940b6b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -138,7 +138,7 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.8
---- !u!95 &3721375464506493815
+--- !u!95 &-7071062380353834556
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
@@ -148,7 +148,7 @@ Animator:
   m_GameObject: {fileID: 3147136952484043211}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 6d2880a43f8c9fd40a5dceed312b7f9a, type: 2}
+  m_Controller: {fileID: 9100000, guid: 9aa36d47f4a548d43a5723593b0ac7f1, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
