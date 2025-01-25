@@ -1,6 +1,7 @@
 using UnityEngine;
 using TMPro;
 using System.Collections;
+using UnityEngine.SceneManagement;
 public class DialogueManager : MonoBehaviour
 {
     [SerializeField, TextArea(4, 6)] private string[] dialogueLines;
@@ -54,8 +55,13 @@ public class DialogueManager : MonoBehaviour
         }
         else
         {
-            dialoguePanel.SetActive(false);
-            isDialogueActive = false;
+            dialoguePanel.SetActive(false); // Desactivar el panel de diálogo
+            isDialogueActive = false; // Desactivar el diálogo
+            ChangeScene(); // Llamar a la función para cambiar de escena
         }
+    }
+    private void ChangeScene()
+    {
+        SceneManager.LoadScene("Level1"); 
     }
 }
