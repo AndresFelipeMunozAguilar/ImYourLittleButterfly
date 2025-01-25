@@ -9,6 +9,7 @@ public class PusherMovement : MonoBehaviour
     private float objectWidth = 0.5f;
     private float objectHeight = 0.5f;
 
+    private float screenWidth;
     private Vector3 screenBounds;
 
     private Vector3 mousePosition;
@@ -30,16 +31,17 @@ public class PusherMovement : MonoBehaviour
         // Obtener los límites de la cámara usando ScreenToWorldPoint
         camera = Camera.main;
 
-        /* 
-        Calcular los límites de la pantalla, a través del ancho
-        y la altura de la pantalla, y la posición de la cámara
-        */
-        screenBounds = camera.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, camera.transform.position.z));
+
 
         // Obtener las dimensiones de este objeto y dividirlas por 2
         // esto nos permite obtener el centro del objeto
         objectWidth = transform.GetComponent<Renderer>().bounds.size.x / 2;
         objectHeight = transform.GetComponent<Renderer>().bounds.size.y / 2;
+
+        /* Calcular los límites de la pantalla, a través del ancho
+        y la altura de la pantalla, y la posición de la cámara*/
+
+        screenBounds = camera.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, camera.transform.position.z));
 
 
         // =========== Empujar burbuja ===========
@@ -73,10 +75,11 @@ public class PusherMovement : MonoBehaviour
         // Establecer z a 0 para mantenerlo en el mismo plano   
         mousePosition.z = 0f;
 
+
         /* 
         Limitar las posiciones x e y del objeto a los límites de la pantalla
         */
-        mousePosition.x = Mathf.Clamp(mousePosition.x, (screenBounds.x * -1) + objectWidth, screenBounds.x - objectWidth);
+        mousePosition.x = Mathf.Clamp(mousePosition.x, camera.transform.position.x - screenBounds.x + objectWidth, camera.transform.position.x + screenBounds.x - objectWidth);
         mousePosition.y = Mathf.Clamp(mousePosition.y, (screenBounds.y * -1) + objectHeight, screenBounds.y - objectHeight);
 
         // Establecer la posición del objeto a la posición del ratón

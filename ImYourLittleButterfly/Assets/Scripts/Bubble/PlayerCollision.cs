@@ -1,11 +1,11 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-
 [RequireComponent(typeof(Collider2D))]
+
 public class PlayerCollision : MonoBehaviour
 {
-    [Header("Animación")]
+    [Header("Animaciï¿½n")]
     [SerializeField] private Animator animator;
     [SerializeField] private string nameTrigger;
     [SerializeField] private float animationCollisionLenght;
@@ -18,21 +18,27 @@ public class PlayerCollision : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Obstaculo"))
+        if (collision.gameObject.CompareTag("Obstacle"))
         {
+
             ResetLevel();
+
         }
     }
 
     private void ResetLevel()
     {
-        //Efecto visual
-        animator.SetTrigger(nameTrigger);
+
+        // Efecto visual
+        // QUITAME, BORRAME, ELIMINAME SI YA SE TIENE LA ANIMACIÃ“N
+        // animator.SetTrigger(nameTrigger);
+
         //Esperar 1 seg y reiniciar el nivel
         Invoke("ReloadScene", animationCollisionLenght);
     }
 
-    private void ReloadScene() {
+    private void ReloadScene()
+    {
 
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
