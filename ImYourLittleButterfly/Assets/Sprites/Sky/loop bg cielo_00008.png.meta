@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      loop bg cielo_00008_0: -1557265531464504287
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
