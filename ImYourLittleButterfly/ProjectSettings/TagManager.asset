@@ -43,5 +43,11 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Fondo
+    uniqueID: 1993658313
+    locked: 0
+  - name: PinPin
+    uniqueID: 4190551597
+    locked: 0
   m_RenderingLayers:
   - Default
