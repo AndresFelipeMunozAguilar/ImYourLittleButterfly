@@ -3,7 +3,7 @@ using TMPro;
 using System.Collections;
 public class DialogueManager : MonoBehaviour
 {
-    [SerializeField, TextArea(4,6)] private string[] dialogueLines;
+    [SerializeField, TextArea(4, 6)] private string[] dialogueLines;
     [SerializeField] private GameObject dialoguePanel;
     [SerializeField] private TMP_Text dialogueText;
     private bool isDialogueActive;
@@ -18,12 +18,12 @@ public class DialogueManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(dialogueText.text == dialogueLines[lineIndex])
+        if (dialogueText.text == dialogueLines[lineIndex])
         {
-         if(Input.GetMouseButtonDown(0))
-             {
-            NextDialougeLine();
-             }
+            if (Input.GetMouseButtonDown(0))
+            {
+                NextDialougeLine();
+            }
         }
     }
     public void StartDialogue()
