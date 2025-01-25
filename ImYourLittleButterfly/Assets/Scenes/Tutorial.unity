@@ -347,7 +347,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &193836666
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1288,11 +1288,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueLines:
-  - Primer dialogo asi bien laaaaaaaaaaaaaaargo
+  - Primer dialogo asi bien laaaaaaaaaaaargo
   - dialogo doooos
   - 'yo cuando dialogo 3: '
+  - dialogo 4.....
+  - pero cuantos dialogos
+  - cinco?!?!?
+  - seis....
+  - bueno ya saben
+  - 6cho
+  - uno mas....
+  - diez!
   dialoguePanel: {fileID: 193836665}
   dialogueText: {fileID: 456916668}
+  npcSprites:
+  - {fileID: -4317130143076399817, guid: 71a8fdc0745c5bf45932924f7b444389, type: 3}
+  - {fileID: 1215480673142161086, guid: b76117bb6a85d96448e4574d6e0e7f5f, type: 3}
+  - {fileID: -7941318693215906496, guid: 2a6dd55462605d344b64dcac0c21b75a, type: 3}
+  - {fileID: 5104424676981859419, guid: 0eb3b3e467219d04baacbeaa2d3a4a63, type: 3}
+  - {fileID: 7365507784020797748, guid: 6da7eb8e7c178e846892b669c1a7cf49, type: 3}
+  npcObject: {fileID: 18773148}
   typingSpeed: 0.05
 --- !u!4 &1687038674
 Transform:
