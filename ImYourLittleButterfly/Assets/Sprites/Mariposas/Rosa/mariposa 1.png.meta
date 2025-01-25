@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: 6814b729eae60084aab70f0af102196b
+guid: edcaa90f1c72a1d4d99be7835efd024c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2903873713062663153
-    second: victory_placeholder_resized_0
+      213: 606963974834133632
+    second: mariposa 1_0
+  - first:
+      213: -3673066283484991666
+    second: mariposa 1_1
+  - first:
+      213: -7533218915933972062
+    second: mariposa 1_2
+  - first:
+      213: 4021169083634813509
+    second: mariposa 1_3
+  - first:
+      213: 8277699408381124363
+    second: mariposa 1_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +112,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: victory_placeholder_resized_0
+      name: mariposa 1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 1080
+        x: 35
+        y: 637
+        width: 435
+        height: 359
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +127,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1f3d1b3b1c1ac4820800000000000000
-      internalID: 2903873713062663153
+      spriteID: 08a927fe48e5c6800800000000000000
+      internalID: 606963974834133632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mariposa 1_1
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 630
+        width: 279
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4fa9680da5a60dc0800000000000000
+      internalID: -3673066283484991666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mariposa 1_2
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 639
+        width: 243
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a990840f41a47790800000000000000
+      internalID: -7533218915933972062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mariposa 1_3
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 649
+        width: 289
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54a06dbf9ff0ec730800000000000000
+      internalID: 4021169083634813509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mariposa 1_4
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 233
+        width: 365
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0f940a31cb40e270800000000000000
+      internalID: 8277699408381124363
       vertices: []
       indices: 
       edges: []
@@ -134,8 +234,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      victory_placeholder_resized_0: 2903873713062663153
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

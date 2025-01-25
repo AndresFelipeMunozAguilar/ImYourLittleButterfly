@@ -9,13 +9,19 @@ public class EnemyMovementController : MonoBehaviour
     [SerializeField] private Vector2 movementRange;
     [SerializeField] private float speed;
     [SerializeField] private MovementType movementType;
-    [SerializeField ]private float resetDelay = 0;
-
+    [SerializeField] private float resetDelay = 0;
+    [Header("Animacion")]
+    
     private Vector2 initialPosition;
     private Vector2 destinyPosition;
 
+    private Animator animator;
+
+
     private void Start()
     {
+        animator = GetComponent<Animator>();
+
         //Guardar la posicion inicial
         initialPosition = transform.position;
 
@@ -37,6 +43,14 @@ public class EnemyMovementController : MonoBehaviour
         //Comprobar si la posicion destino anterior era la misma posicion inicial
         destinyPosition = (destinyPosition == initialPosition ? initialPosition + movementRange : initialPosition);
 
+        //Cambiar la direccion a la que mira
+        transform.eulerAngles += new Vector3(0, 0, 180);
+
+    }
+
+    private void ChangeOrientation()
+    {
+
     }
 
     private IEnumerator PatrolMoveCoroutine()
@@ -49,11 +63,17 @@ public class EnemyMovementController : MonoBehaviour
             //Verificar si ya llego a la posicion destino
             if ((Vector2)transform.position ==  destinyPosition)
             {
+                //Ejecutar animación de pausa
+                animator.SetBool("moving", false);
+
                 // Esperar antes de cambiar de direccion
                 yield return new WaitForSeconds(resetDelay);
 
                 //Calcular el siguiente punto
                 CalculateNextDestiny();
+
+                //Ejecutar animación de movimiento
+                animator.SetBool("moving", true);
             }
 
             yield return null;
