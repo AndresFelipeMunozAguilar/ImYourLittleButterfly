@@ -1,22 +1,19 @@
 fileFormatVersion: 2
-guid: edcaa90f1c72a1d4d99be7835efd024c
+guid: 1aa54910c919b8942bdd7a9e0bf91519
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 606963974834133632
-    second: mariposa 1_0
+      213: -5051228684295914166
+    second: isla 1_0
   - first:
-      213: -3673066283484991666
-    second: mariposa 1_1
+      213: -8494515357485003824
+    second: isla 1_1
   - first:
-      213: -7533218915933972062
-    second: mariposa 1_2
+      213: 7673713695327925634
+    second: isla 1_2
   - first:
-      213: 4021169083634813509
-    second: mariposa 1_3
-  - first:
-      213: 8277699408381124363
-    second: mariposa 1_4
+      213: 1946618237535750098
+    second: isla 1_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -63,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 300
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -112,111 +109,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mariposa 1_0
+      name: isla 1_3
       rect:
         serializedVersion: 2
-        x: 35
-        y: 637
-        width: 435
-        height: 359
+        x: 812
+        y: 457
+        width: 296
+        height: 137
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 08a927fe48e5c6800800000000000000
-      internalID: 606963974834133632
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mariposa 1_1
-      rect:
-        serializedVersion: 2
-        x: 559
-        y: 630
-        width: 279
-        height: 377
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e4fa9680da5a60dc0800000000000000
-      internalID: -3673066283484991666
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mariposa 1_2
-      rect:
-        serializedVersion: 2
-        x: 914
-        y: 639
-        width: 243
-        height: 362
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2a990840f41a47790800000000000000
-      internalID: -7533218915933972062
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mariposa 1_3
-      rect:
-        serializedVersion: 2
-        x: 1237
-        y: 649
-        width: 289
-        height: 367
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 54a06dbf9ff0ec730800000000000000
-      internalID: 4021169083634813509
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mariposa 1_4
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 233
-        width: 365
-        height: 353
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b0f940a31cb40e270800000000000000
-      internalID: 8277699408381124363
+      spriteID: 2d78d9139f6c30b10800000000000000
+      internalID: 1946618237535750098
       vertices: []
       indices: 
       edges: []
@@ -225,7 +134,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 748496c4c1600a14db8996e7214d998b
     internalID: 0
     vertices: []
     indices: 
@@ -234,7 +143,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      isla 1_0: -5051228684295914166
+      isla 1_1: -8494515357485003824
+      isla 1_2: 7673713695327925634
+      isla 1_3: 1946618237535750098
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

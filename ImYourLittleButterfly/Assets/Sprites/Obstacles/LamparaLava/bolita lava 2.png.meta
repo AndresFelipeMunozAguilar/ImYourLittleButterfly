@@ -1,22 +1,19 @@
 fileFormatVersion: 2
-guid: 09d6139351632af4887a68f1d3f033d1
+guid: 72353e33603744841aea06de6d31ca47
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8620983304380022606
-    second: mariposa 3_0
+      213: 3747718862702222415
+    second: bolita lava 2_0
   - first:
-      213: -6794333180666243733
-    second: mariposa 3_1
+      213: -8743350880557039488
+    second: bolita lava 2_1
   - first:
-      213: -785509002567297735
-    second: mariposa 3_2
+      213: -8580453271087300118
+    second: bolita lava 2_2
   - first:
-      213: -2851742132714289820
-    second: mariposa 3_3
-  - first:
-      213: 3946219614201914330
-    second: mariposa 3_4
+      213: 708758123361166056
+    second: bolita lava 2_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -63,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 300
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -112,111 +109,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mariposa 3_0
+      name: bolita lava 2_0
       rect:
         serializedVersion: 2
-        x: 35
-        y: 631
-        width: 435
-        height: 359
+        x: 909
+        y: 462
+        width: 116
+        height: 165
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2b00bdf4c5d1c5880800000000000000
-      internalID: -8620983304380022606
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mariposa 3_1
-      rect:
-        serializedVersion: 2
-        x: 559
-        y: 624
-        width: 279
-        height: 377
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b651db858fda5b1a0800000000000000
-      internalID: -6794333180666243733
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mariposa 3_2
-      rect:
-        serializedVersion: 2
-        x: 914
-        y: 633
-        width: 243
-        height: 362
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 935da1659bf4915f0800000000000000
-      internalID: -785509002567297735
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mariposa 3_3
-      rect:
-        serializedVersion: 2
-        x: 1237
-        y: 643
-        width: 289
-        height: 367
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 465cc84b3a39c68d0800000000000000
-      internalID: -2851742132714289820
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mariposa 3_4
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 227
-        width: 365
-        height: 353
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ad32f26c4d9c3c630800000000000000
-      internalID: 3946219614201914330
+      spriteID: f4c95690372920430800000000000000
+      internalID: 3747718862702222415
       vertices: []
       indices: 
       edges: []
@@ -225,7 +134,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 29584308e371cc2459a0682c5420ebea
     internalID: 0
     vertices: []
     indices: 
@@ -234,7 +143,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bolita lava 2_0: 3747718862702222415
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,19 +1,13 @@
 fileFormatVersion: 2
-guid: 72353e33603744841aea06de6d31ca47
+guid: 30080f1cf0ace7249b8c2c41145d57cd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3747718862702222415
-    second: bolita lava 2_0
+      213: -1872930370182089086
+    second: bolita lava 1_0
   - first:
-      213: -8743350880557039488
-    second: bolita lava 2_1
-  - first:
-      213: -8580453271087300118
-    second: bolita lava 2_2
-  - first:
-      213: 708758123361166056
-    second: bolita lava 2_3
+      213: 1117189283076980526
+    second: bolita lava 1_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -60,7 +54,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 300
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -109,13 +103,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bolita lava 2_0
+      name: bolita lava 1_0
       rect:
         serializedVersion: 2
-        x: 909
-        y: 462
-        width: 116
-        height: 165
+        x: 898
+        y: 461
+        width: 138
+        height: 155
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,8 +118,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f4c95690372920430800000000000000
-      internalID: 3747718862702222415
+      spriteID: 286714460c30206e0800000000000000
+      internalID: -1872930370182089086
       vertices: []
       indices: 
       edges: []
@@ -134,7 +128,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 29584308e371cc2459a0682c5420ebea
+    spriteID: 45df89e206b2e91498759ce8111181c7
     internalID: 0
     vertices: []
     indices: 
@@ -144,7 +138,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      bolita lava 2_0: 3747718862702222415
+      bolita lava 1_2: -1590009189
+      bolita lava 1_3: 107705039
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

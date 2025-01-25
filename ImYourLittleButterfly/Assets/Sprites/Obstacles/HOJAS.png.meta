@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 30080f1cf0ace7249b8c2c41145d57cd
+guid: f7d226ea2baab144cb4183fe2e075b3e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1872930370182089086
-    second: bolita lava 1_0
-  - first:
-      213: 1117189283076980526
-    second: bolita lava 1_1
+      213: 1897485607702655852
+    second: HOJAS_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -54,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 300
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -103,23 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bolita lava 1_0
+      name: HOJAS_0
       rect:
         serializedVersion: 2
-        x: 898
-        y: 461
-        width: 138
-        height: 155
+        x: 67
+        y: 108
+        width: 1795
+        height: 766
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 286714460c30206e0800000000000000
-      internalID: -1872930370182089086
+      spriteID: c63788d5b19355a10800000000000000
+      internalID: 1897485607702655852
       vertices: []
       indices: 
       edges: []
@@ -128,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 45df89e206b2e91498759ce8111181c7
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -138,8 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      bolita lava 1_2: -1590009189
-      bolita lava 1_3: 107705039
+      HOJAS_0: 1897485607702655852
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
