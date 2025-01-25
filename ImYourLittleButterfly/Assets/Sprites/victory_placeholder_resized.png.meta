@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 620bb3c583de251479988e8912f2dc5f
+guid: 6814b729eae60084aab70f0af102196b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6960681386464265450
-    second: monitorTemporal_0
+      213: 2903873713062663153
+    second: victory_placeholder_resized_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: monitorTemporal_0
+      name: victory_placeholder_resized_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 612
-        height: 516
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ae440ea77de499060800000000000000
-      internalID: 6960681386464265450
+      spriteID: 1f3d1b3b1c1ac4820800000000000000
+      internalID: 2903873713062663153
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      monitorTemporal_0: 6960681386464265450
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
