@@ -135,7 +135,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+<<<<<<< HEAD:ImYourLittleButterfly/Assets/Sprites/Obstacles/camera.png.meta
       camera_0: -4566190091907096745
+=======
+      mariposa 3_0: -8620983304380022606
+      mariposa 3_1: -6794333180666243733
+      mariposa 3_2: -785509002567297735
+      mariposa 3_3: -2851742132714289820
+      mariposa 3_4: 3946219614201914330
+>>>>>>> 8d26d6c93536a8ea1439e54c2c63894c29f556e2:ImYourLittleButterfly/Assets/Sprites/Mariposas/Naranja/mariposa 3.png.meta
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
