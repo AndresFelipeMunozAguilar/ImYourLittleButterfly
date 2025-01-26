@@ -13,11 +13,7 @@ GameObject:
   - component: {fileID: 5179632761131330069}
   - component: {fileID: 1285439599372575859}
   - component: {fileID: 3721375464506493815}
-<<<<<<< HEAD
   - component: {fileID: 356407986147984582}
-=======
-  - component: {fileID: 3036376958758347363}
->>>>>>> 0d54488b52d8e5f23aa3c46d7f5f00c93997b4fd
   m_Layer: 0
   m_Name: Collectibles
   m_TagString: Untagged
@@ -166,11 +162,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
-<<<<<<< HEAD
 --- !u!82 &356407986147984582
-=======
---- !u!82 &3036376958758347363
->>>>>>> 0d54488b52d8e5f23aa3c46d7f5f00c93997b4fd
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
