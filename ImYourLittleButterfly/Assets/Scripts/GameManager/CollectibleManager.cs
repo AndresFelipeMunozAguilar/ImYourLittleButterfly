@@ -47,7 +47,7 @@ public class CollectibleManager : MonoBehaviour
         }
         else
         {
-            collectiblesDisplay.text = "You did it!";
+            collectiblesDisplay.text = "GG!";
         }
 
     }

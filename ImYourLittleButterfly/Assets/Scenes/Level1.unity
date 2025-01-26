@@ -2195,6 +2195,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camera: {fileID: 0}
+  offSet: 0.467
   pushForce: 10
 --- !u!212 &2116468791
 SpriteRenderer:
