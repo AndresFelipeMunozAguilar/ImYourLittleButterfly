@@ -1,6 +1,14 @@
 # Bubble Memory
 Este repositorio contiene el código del equipo 3 de B/manga, Santander, Colombia que participó en la Global Game Jam del 2025
 
+Créditos:
+-Andrés Felipe Muñoz Aguilar (Programador)
+-Norbelly Cecilia Sepúlveda Garzón (Artista - Level Designer)
+-María Alejandra Vera Briceño (Animadora, Artista 2D)
+-Juan David Patiño Pedraza (Programador)
+-Alejandro Velandia Gelvez (Programador)
+-
+
 Webgrafía:
 - Creator Assets [@CreatorAssets]. (s. f.). Pop sound effects (copyright free). Youtube. Recuperado 26 de enero de 2025, de https://www.youtube.com/watch?v=BYPqS0YPxh8
 
