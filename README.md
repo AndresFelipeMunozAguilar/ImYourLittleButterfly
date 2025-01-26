@@ -3,7 +3,7 @@ Este repositorio contiene el código del equipo 3 de B/manga, Santander, Colombi
 
 ## Créditos:
 - Andrés Felipe Muñoz Aguilar (Programador)
-- Norbelly Cecilia Sepúlveda Garzón (Artista - Level Designer)
+- Norbelly Cecilia Sepúlveda Garzón (Artista 2D - Level Designer)
 - María Alejandra Vera Briceño (Animadora, Artista 2D)
 - Juan David Patiño Pedraza (Programador)
 - Alejandro Velandia Gelvez (Programador)
