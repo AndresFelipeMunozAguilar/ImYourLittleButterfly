@@ -1126,7 +1126,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxCollectibles: 3
-  waitBeforeChangeScene: 0.5
+  waitBeforeChangeScene: 0.2
   collectiblesDisplay: {fileID: 2087398540}
   nextScene: 2
 --- !u!1001 &1181579131
