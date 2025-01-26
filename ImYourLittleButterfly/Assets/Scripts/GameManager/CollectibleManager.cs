@@ -3,6 +3,8 @@ using UnityEngine.SceneManagement;
 
 using TMPro;
 
+public enum ScenesNames { Tutorial, Level1, Level2, WinningScreen };
+
 public class CollectibleManager : MonoBehaviour
 {
     public static CollectibleManager instance;
@@ -15,6 +17,8 @@ public class CollectibleManager : MonoBehaviour
 
     public float waitBeforeChangeScene = 1f;
     [SerializeField] private TMP_Text collectiblesDisplay;
+
+    [SerializeField] private ScenesNames nextScene;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
@@ -55,6 +59,6 @@ public class CollectibleManager : MonoBehaviour
     private void ChangeScene()
     {
         // Cambiar de escena
-        SceneManager.LoadScene("WinningScreen");
+        SceneManager.LoadScene(nextScene.ToString());
     }
 }

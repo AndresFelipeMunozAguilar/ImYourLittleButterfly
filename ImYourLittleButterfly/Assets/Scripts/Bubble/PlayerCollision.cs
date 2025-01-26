@@ -35,10 +35,6 @@ public class PlayerCollision : MonoBehaviour
                 
             }
 
-
-            
-
-
             ResetLevel();
 
         }
@@ -48,11 +44,8 @@ public class PlayerCollision : MonoBehaviour
     {
 
         // Efecto visual
-        // QUITAME, BORRAME, ELIMINAME SI YA SE TIENE LA ANIMACIÓN
         animator.SetTrigger(nameTrigger);
 
-
-        
         //Esperar 1 seg y reiniciar el nivel
         Invoke("ReloadScene", animationCollisionLenght);
     }
