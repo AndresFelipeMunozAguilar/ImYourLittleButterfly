@@ -22,6 +22,7 @@ public class PlayerCollision : MonoBehaviour
         {
 
             GetComponent<Bubble>().isActive = false;
+            GetComponent<Rigidbody2D>().simulated = false;
             ResetLevel();
 
         }
