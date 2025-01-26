@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 9fa3788dd16d31a42bcb3ef23587b39b
+guid: 45fc3293468766f49a14d3a048997bc8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5532231015590297237
-    second: CollectiblesIcon_0
+      213: 1717298279705212019
+    second: burbuja_0
+  - first:
+      213: -4759074814242275392
+    second: burbuja_1
+  - first:
+      213: -7353533491336223152
+    second: burbuja_2
+  - first:
+      213: -911788068471360119
+    second: burbuja_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 270
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,13 +109,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CollectiblesIcon_0
+      name: burbuja_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 211
-        height: 211
+        x: 110
+        y: 714
+        width: 276
+        height: 267
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +124,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b61875cc3319933b0800000000000000
-      internalID: -5532231015590297237
+      spriteID: 374f73fcfa115d710800000000000000
+      internalID: 1717298279705212019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burbuja_1
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 718
+        width: 276
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cfb49dcbae54fdb0800000000000000
+      internalID: -4759074814242275392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burbuja_2
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 692
+        width: 276
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05667f4104003f990800000000000000
+      internalID: -7353533491336223152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burbuja_3
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 697
+        width: 276
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9853354259da853f0800000000000000
+      internalID: -911788068471360119
       vertices: []
       indices: 
       edges: []
@@ -135,7 +210,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      CollectiblesIcon_0: -5532231015590297237
+      burbuja_0: 1717298279705212019
+      burbuja_1: -4759074814242275392
+      burbuja_2: -7353533491336223152
+      burbuja_3: -911788068471360119
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

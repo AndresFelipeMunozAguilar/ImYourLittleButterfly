@@ -3,6 +3,8 @@ using UnityEngine;
 public class Bubble : MonoBehaviour
 {
 
+    public bool isActive = true;
+
     private Rigidbody2D rigidBody;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -34,4 +36,5 @@ public class Bubble : MonoBehaviour
         // Aplicamos la fuerza al objeto
         rigidBody.AddForce(posDiff, ForceMode2D.Impulse);
     }
+
 }

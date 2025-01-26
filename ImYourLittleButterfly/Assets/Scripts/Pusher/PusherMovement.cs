@@ -89,7 +89,12 @@ public class PusherMovement : MonoBehaviour
     private void PushBubble()
     {
         // Empujar la burbuja 
-        bubble.PushBubble(transform.position, pushForce);
+        Debug.Log("la burbuja esat activa? " + bubble.isActive);
+
+        if (bubble.isActive)
+        {
+            bubble.PushBubble(transform.position, pushForce);
+        }
 
     }
 
