@@ -10,10 +10,14 @@ public class PlayerCollision : MonoBehaviour
     [SerializeField] private string nameTrigger;
     [SerializeField] private float animationCollisionLenght;
 
+    private AudioSource audioSource;
+
     private void Awake()
     {
         animator = GetComponent<Animator>();
         animationCollisionLenght += 0.5f;
+        audioSource = GetComponent<AudioSource>();
+        audioSource.Stop();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -23,6 +27,18 @@ public class PlayerCollision : MonoBehaviour
 
             GetComponent<Bubble>().isActive = false;
             GetComponent<Rigidbody2D>().simulated = false;
+
+
+            if (!audioSource.isPlaying)
+            {
+                audioSource.Play();
+                
+            }
+
+
+            
+
+
             ResetLevel();
 
         }
@@ -35,8 +51,8 @@ public class PlayerCollision : MonoBehaviour
         // QUITAME, BORRAME, ELIMINAME SI YA SE TIENE LA ANIMACIÓN
         animator.SetTrigger(nameTrigger);
 
-        
 
+        
         //Esperar 1 seg y reiniciar el nivel
         Invoke("ReloadScene", animationCollisionLenght);
     }
