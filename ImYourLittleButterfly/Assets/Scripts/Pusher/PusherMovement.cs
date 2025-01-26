@@ -12,6 +12,7 @@ public class PusherMovement : MonoBehaviour
     private float screenWidth;
     private Vector3 screenBounds;
 
+    public float offSet = 0.47f;
     private Vector3 mousePosition;
 
     //=======================================================
@@ -80,7 +81,7 @@ public class PusherMovement : MonoBehaviour
         Limitar las posiciones x e y del objeto a los límites de la pantalla
         */
         mousePosition.x = Mathf.Clamp(mousePosition.x, camera.transform.position.x - screenBounds.x + objectWidth, camera.transform.position.x + screenBounds.x - objectWidth);
-        mousePosition.y = Mathf.Clamp(mousePosition.y, (screenBounds.y * -1) + objectHeight, screenBounds.y - objectHeight);
+        mousePosition.y = Mathf.Clamp(mousePosition.y, (screenBounds.y * -1) + objectHeight + offSet, screenBounds.y - objectHeight + offSet);
 
         // Establecer la posición del objeto a la posición del ratón
         transform.position = mousePosition;
