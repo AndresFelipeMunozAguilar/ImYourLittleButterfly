@@ -13,6 +13,7 @@ public class DialogueManager : MonoBehaviour
     [Header("Elementos que se activarán al encender")]
     [SerializeField] private GameObject[] objectsToActivate; 
     [SerializeField] private GameObject Bubble;
+    [SerializeField] private GameObject BubblePop;
     [SerializeField] private GameObject[] objectsObstacles; 
     [SerializeField] private AudioSource audioSource; // AudioSource para reproducir el sonido
     [SerializeField] private AudioClip typingSound; // Clip de sonido de máquina de escribir
@@ -64,6 +65,9 @@ public class DialogueManager : MonoBehaviour
            {
                StartCoroutine(FadeOut(obj));
            }
+            StartCoroutine(FadeOut(Bubble));
+            Debug.Log("BubblePop activándose");
+            StartCoroutine(ActivateObjectsWithDelay(BubblePop));
            foreach (GameObject obj in objectsObstacles)
            {
                StartCoroutine(ActivateObjectsWithDelay(obj));
