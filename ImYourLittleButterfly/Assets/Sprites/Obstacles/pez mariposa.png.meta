@@ -1,10 +1,28 @@
 fileFormatVersion: 2
-guid: e955bd6c7299ab143ba6806e4a8e08fa
+guid: 58eb5c27e3a00c2468aae285bd8e28ab
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2410779667716283973
-    second: water 1_0
+      213: 1793978893955489981
+    second: pez mariposa_0
+  - first:
+      213: 4106289770232247812
+    second: pez mariposa_1
+  - first:
+      213: 2395239903639396462
+    second: pez mariposa_2
+  - first:
+      213: -2209791437922920786
+    second: pez mariposa_3
+  - first:
+      213: -2489936164014301074
+    second: pez mariposa_4
+  - first:
+      213: -4011203845084921225
+    second: pez mariposa_5
+  - first:
+      213: 6283188545548945105
+    second: pez mariposa_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 200
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,23 +118,67 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: water 1_0
+      name: pez mariposa_0
       rect:
         serializedVersion: 2
-        x: 631
-        y: 0
-        width: 1289
-        height: 754
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 81
+        y: 646
+        width: 545
+        height: 334
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 54e96fdb55fc47120800000000000000
-      internalID: 2410779667716283973
+      spriteID: db0e3c49c4e75e810800000000000000
+      internalID: 1793978893955489981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pez mariposa_1
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 656
+        width: 536
+        height: 334
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 406738b3ac87cf830800000000000000
+      internalID: 4106289770232247812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pez mariposa_3
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 695
+        width: 500
+        height: 315
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea697ea256e3551e0800000000000000
+      internalID: -2209791437922920786
       vertices: []
       indices: 
       edges: []
@@ -125,7 +187,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 96138f83bd18a084ba398eb1cbace298
+    spriteID: 21d5dba968f97af4b8630effd89d8a43
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +197,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      water 1_0: 2410779667716283973
+      pez mariposa_0: 1793978893955489981
+      pez mariposa_1: 4106289770232247812
+      pez mariposa_3: -2209791437922920786
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

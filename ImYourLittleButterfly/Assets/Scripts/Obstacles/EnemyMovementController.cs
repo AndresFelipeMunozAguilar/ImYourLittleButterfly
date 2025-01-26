@@ -44,13 +44,20 @@ public class EnemyMovementController : MonoBehaviour
         destinyPosition = (destinyPosition == initialPosition ? initialPosition + movementRange : initialPosition);
 
         //Cambiar la direccion a la que mira
-        transform.eulerAngles += new Vector3(0, 0, 180);
+        ChangeOrientation();
 
     }
 
     private void ChangeOrientation()
     {
+        Vector3 currentScale = transform.localScale;
 
+        //Comprobar si se mueve en el eje X o Y, aplicar un flip al eje
+        if (movementRange.x != 0) { currentScale.x *= -1; }
+        if (movementRange.y != 0) { currentScale.y *= -1; }
+
+        //Actualizar la orientación
+        transform.localScale = currentScale;
     }
 
     private IEnumerator PatrolMoveCoroutine()
@@ -84,17 +91,33 @@ public class EnemyMovementController : MonoBehaviour
     {
         while (true)
         {
+            //Verificar si esta empezando
+            if ((Vector2)transform.position == initialPosition)
+            {
+                //Esperar a que se ejecute la animación inicial
+                yield return new WaitForSeconds(resetDelay);
+
+                //Activar la animacion de movimiento
+                animator.SetBool("moving", true);
+            }
+
             //Mover al enemigo
             transform.position = Vector2.MoveTowards(transform.position, destinyPosition, speed * Time.deltaTime);
 
             //Verificar si ya llego a la posicion destino
             if ((Vector2)transform.position == destinyPosition)
             {
+                //Ejecutar la animacion de choque
+                animator.SetBool("moving", false);
+
                 // Esperar antes de teletransportarse a la posición inicial
                 yield return new WaitForSeconds(resetDelay);
 
                 // Teletransportarse a la posición inicial
                 transform.position = initialPosition;
+
+                //Ejecutar la animación de inicio
+                animator.SetTrigger("contact");
             }
 
             yield return null;
