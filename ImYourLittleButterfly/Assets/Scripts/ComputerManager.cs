@@ -96,7 +96,7 @@ public class ComputerManager : MonoBehaviour
     }
 
     IEnumerator FadeIn(GameObject obj)
-{
+    {
     obj.SetActive(true); // Activar el objeto
 
     // Si el objeto tiene un SpriteRenderer (para objetos no UI)
