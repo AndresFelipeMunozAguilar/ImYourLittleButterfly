@@ -103,7 +103,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementRange: {x: 0, y: 2.6}
-  speed: 2
+  speed: 1.5
   movementType: 0
   resetDelay: 0.1
 --- !u!61 &173287203662418857
