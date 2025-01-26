@@ -173,4 +173,4 @@ MonoBehaviour:
   movementRange: {x: 0, y: -5.2}
   speed: 6
   movementType: 1
-  resetDelay: 0.3
+  resetDelay: 0.4

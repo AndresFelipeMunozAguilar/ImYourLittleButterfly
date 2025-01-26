@@ -170,7 +170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b6fe4735cd911345a3e18146fa88903, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementRange: {x: 4, y: 0}
+  movementRange: {x: 3, y: 0}
   speed: 2
   movementType: 0
-  resetDelay: 0.6
+  resetDelay: 0.8

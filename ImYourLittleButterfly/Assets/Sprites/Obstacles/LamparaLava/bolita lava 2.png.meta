@@ -112,12 +112,12 @@ TextureImporter:
       name: bolita lava 2_0
       rect:
         serializedVersion: 2
-        x: 909
-        y: 462
-        width: 116
-        height: 165
+        x: 903
+        y: 458
+        width: 127
+        height: 173
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -130,11 +130,77 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: bolita lava 2_1
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 600
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0808cc9c2b069a680800000000000000
+      internalID: -8743350880557039488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bolita lava 2_2
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 577
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae1c00d063b1ce880800000000000000
+      internalID: -8580453271087300118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bolita lava 2_3
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 549
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e26d9e02c306d900800000000000000
+      internalID: 708758123361166056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 29584308e371cc2459a0682c5420ebea
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -145,6 +211,9 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       bolita lava 2_0: 3747718862702222415
+      bolita lava 2_1: -8743350880557039488
+      bolita lava 2_2: -8580453271087300118
+      bolita lava 2_3: 708758123361166056
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
