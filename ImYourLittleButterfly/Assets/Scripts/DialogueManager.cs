@@ -10,6 +10,8 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] public Sprite[] npcSprites;
     [SerializeField] public GameObject npcObject;
 
+    [SerializeField] private AudioSource audioSource; // AudioSource para reproducir el sonido
+    [SerializeField] private AudioClip typingSound; // Clip de sonido de máquina de escribir
     private bool isDialogueActive;
     private int lineIndex;
     public float typingSpeed = 1f;
@@ -53,6 +55,7 @@ public class DialogueManager : MonoBehaviour
     private IEnumerator ShowLine()
     {
         dialogueText.text = "";
+
         foreach (char ch in dialogueLines[lineIndex])
         {
             dialogueText.text += ch;
@@ -66,6 +69,10 @@ public class DialogueManager : MonoBehaviour
         if (lineIndex < dialogueLines.Length)
         {
             StartCoroutine(ShowLine());
+            if (typingSound != null && !audioSource.isPlaying)
+            {
+                audioSource.PlayOneShot(typingSound);
+            } // Reproducir el sonido de la máquina de escribir
         }
         else
         {

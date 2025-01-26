@@ -347,7 +347,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &193836666
 RectTransform:
   m_ObjectHideFlags: 0
@@ -365,8 +365,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 442, y: 390}
-  m_SizeDelta: {x: 0, y: 980}
+  m_AnchoredPosition: {x: 442, y: 313}
+  m_SizeDelta: {x: 0, y: 1551.272}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &193836667
 MonoBehaviour:
@@ -632,15 +632,15 @@ RectTransform:
   m_GameObject: {fileID: 456916666}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 0.875, z: 1}
+  m_LocalScale: {x: 0.975, y: 0.81826174, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 193836666}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 42.731018, y: -0.000030517578}
-  m_SizeDelta: {x: -341.376, y: -198.358}
+  m_AnchoredPosition: {x: 36.625, y: -46.839}
+  m_SizeDelta: {x: -284.426, y: -228.468}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &456916668
 MonoBehaviour:
@@ -689,8 +689,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 140
-  m_fontSizeBase: 140
+  m_fontSize: 110
+  m_fontSizeBase: 110
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1268,6 +1268,7 @@ GameObject:
   - component: {fileID: 1687038674}
   - component: {fileID: 1687038673}
   - component: {fileID: 1687038675}
+  - component: {fileID: 1687038676}
   m_Layer: 0
   m_Name: DialogueManager
   m_TagString: Untagged
@@ -1288,26 +1289,43 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueLines:
-  - Primer dialogo asi bien laaaaaaaaaaaargo
-  - dialogo doooos
-  - 'yo cuando dialogo 3: '
-  - dialogo 4.....
-  - pero cuantos dialogos
-  - cinco?!?!?
-  - seis....
-  - bueno ya saben
-  - 6cho
-  - uno mas....
-  - diez!
+  - "\xA1Hola! Soy Pin Pin, tu fiel asistente,\r\naquel que vive entre el pasado
+    y el presente.\r\n"
+  - 'Hace tiempo que no pasabas por aqui,
+
+    has cambiado mucho, te acuerdas de
+    mi?
+
+'
+  - "No? Enserio? \r\nBueno, no importa\u2026\r\n"
+  - 'Las mariposas que antes solian estar,
+
+    Se han perdido por alli en algun
+    lugar.
+
+'
+  - "\rToma esta burbuja, guiala con cuidado\r\nRecupera lo que se quedo en el pasado.\r\n"
+  - 'Haz clic para avanzar,
+
+    No choques con el camino,
+
+    La burbuja haras
+    flotar.
+
+    O se rompera sin destino.
+
+'
   dialoguePanel: {fileID: 193836665}
   dialogueText: {fileID: 456916668}
   npcSprites:
-  - {fileID: -4317130143076399817, guid: 71a8fdc0745c5bf45932924f7b444389, type: 3}
-  - {fileID: 1215480673142161086, guid: b76117bb6a85d96448e4574d6e0e7f5f, type: 3}
-  - {fileID: -7941318693215906496, guid: 2a6dd55462605d344b64dcac0c21b75a, type: 3}
   - {fileID: 5104424676981859419, guid: 0eb3b3e467219d04baacbeaa2d3a4a63, type: 3}
   - {fileID: 7365507784020797748, guid: 6da7eb8e7c178e846892b669c1a7cf49, type: 3}
+  - {fileID: -4317130143076399817, guid: 71a8fdc0745c5bf45932924f7b444389, type: 3}
+  - {fileID: -4317130143076399817, guid: 71a8fdc0745c5bf45932924f7b444389, type: 3}
+  - {fileID: 5104424676981859419, guid: 0eb3b3e467219d04baacbeaa2d3a4a63, type: 3}
   npcObject: {fileID: 18773148}
+  audioSource: {fileID: 1687038676}
+  typingSound: {fileID: 8300000, guid: b19350e1350e36f4784fa6c162fcad55, type: 3}
   typingSpeed: 0.05
 --- !u!4 &1687038674
 Transform:
@@ -1336,6 +1354,103 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!82 &1687038676
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1687038672}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: b19350e1350e36f4784fa6c162fcad55, type: 3}
+  m_Resource: {fileID: 8300000, guid: b19350e1350e36f4784fa6c162fcad55, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1767870780
 GameObject:
   m_ObjectHideFlags: 0
