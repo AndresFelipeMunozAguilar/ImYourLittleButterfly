@@ -347,7 +347,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &193836666
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1679,7 +1679,7 @@ MonoBehaviour:
   objectsToActivate:
   - {fileID: 1010388166}
   - {fileID: 1739662490}
-  - {fileID: 820534450}
+  - {fileID: 0}
   Bubble: {fileID: 470487969}
   objectsObstacles:
   - {fileID: 932892877}
@@ -2167,9 +2167,9 @@ SceneRoots:
   - {fileID: 18773150}
   - {fileID: 195410280}
   - {fileID: 596185921}
-  - {fileID: 820534451}
   - {fileID: 1739662491}
   - {fileID: 1010388167}
   - {fileID: 470487971}
   - {fileID: 865013921}
   - {fileID: 932892879}
+  - {fileID: 4832463}
