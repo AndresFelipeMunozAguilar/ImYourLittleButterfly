@@ -50,14 +50,14 @@ public class EnemyMovementController : MonoBehaviour
 
     private void ChangeOrientation()
     {
-        Vector3 currentScale = transform.localScale;
+        Vector3 currentRotation = transform.eulerAngles;
 
-        //Comprobar si se mueve en el eje X o Y, aplicar un flip al eje
-        if (movementRange.x != 0) { currentScale.x *= -1; }
-        if (movementRange.y != 0) { currentScale.y *= -1; }
+        //Comprobar si se mueve en el eje X o Y, aplicar una rotación
+        if (movementRange.x != 0) { currentRotation.y += (destinyPosition == initialPosition) ? -180f : 180f; }
+        if (movementRange.y != 0) { currentRotation.z += (destinyPosition == initialPosition) ? -180f : 180f; }
 
         //Actualizar la orientación
-        transform.localScale = currentScale;
+        transform.eulerAngles = currentRotation;
     }
 
     private IEnumerator PatrolMoveCoroutine()

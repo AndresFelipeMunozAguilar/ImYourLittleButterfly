@@ -43,7 +43,7 @@ public class CollectibleManager : MonoBehaviour
     {
         if (!isLevelFinish)
         {
-            collectiblesDisplay.text = collectiblesCount.ToString();
+            collectiblesDisplay.text = collectiblesCount.ToString() + "/" + maxCollectibles.ToString();
         }
         else
         {
