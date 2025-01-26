@@ -1,0 +1,291 @@
+fileFormatVersion: 2
+guid: 95d20946b50608a44ade876afa9d5e8b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4180479753474883618
+    second: burbuja revienta_0
+  - first:
+      213: 1479886110873747461
+    second: burbuja revienta_1
+  - first:
+      213: 1032331998742213669
+    second: burbuja revienta_2
+  - first:
+      213: -7560709490438610023
+    second: burbuja revienta_3
+  - first:
+      213: 2057782034752887382
+    second: burbuja revienta_4
+  - first:
+      213: -2908912191037575580
+    second: burbuja revienta_5
+  - first:
+      213: -8644371677372653893
+    second: burbuja revienta_6
+  - first:
+      213: -3857743769058589666
+    second: burbuja revienta_7
+  - first:
+      213: -8396425536001399615
+    second: burbuja revienta_8
+  - first:
+      213: -6269194355648481278
+    second: burbuja revienta_9
+  - first:
+      213: 9111654992888682804
+    second: burbuja revienta_10
+  - first:
+      213: -5624617968479475981
+    second: burbuja revienta_11
+  - first:
+      213: 5887257393080110570
+    second: burbuja revienta_12
+  - first:
+      213: -2435013345628412577
+    second: burbuja revienta_13
+  - first:
+      213: -653590729623015101
+    second: burbuja revienta_14
+  - first:
+      213: 2401286900726191526
+    second: burbuja revienta_15
+  - first:
+      213: -1858328949423570778
+    second: burbuja revienta_16
+  - first:
+      213: 7906482240210693205
+    second: burbuja revienta_17
+  - first:
+      213: 7333434308365481802
+    second: burbuja revienta_18
+  - first:
+      213: 8565159249136169287
+    second: burbuja revienta_19
+  - first:
+      213: 626954360199343236
+    second: burbuja revienta_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 270
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: burbuja_revienta_1
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 631
+        width: 396
+        height: 418
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edfba6730d3fbf5c0800000000000000
+      internalID: -4180479753474883618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burbuja_revienta_2
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 638
+        width: 390
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5000aaab39c998410800000000000000
+      internalID: 1479886110873747461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burbuja_revienta_0
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 744
+        width: 171
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbe51cf52c5090880800000000000000
+      internalID: -8644371677372653893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burbuja_revienta_3
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 683
+        width: 400
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4686af508020c5e4aa95af79e758875c
+      internalID: -1098873488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 019c088c31e0a894588c8415a0583f1f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      burbuja revienta_10: 9111654992888682804
+      burbuja revienta_11: -5624617968479475981
+      burbuja revienta_12: 5887257393080110570
+      burbuja revienta_13: -2435013345628412577
+      burbuja revienta_14: -653590729623015101
+      burbuja revienta_15: 2401286900726191526
+      burbuja revienta_16: -1858328949423570778
+      burbuja revienta_17: 7906482240210693205
+      burbuja revienta_18: 7333434308365481802
+      burbuja revienta_19: 8565159249136169287
+      burbuja revienta_2: 1032331998742213669
+      burbuja revienta_20: 626954360199343236
+      burbuja revienta_21: 534822104
+      burbuja revienta_3: -7560709490438610023
+      burbuja revienta_4: 2057782034752887382
+      burbuja revienta_5: -2908912191037575580
+      burbuja revienta_7: -3857743769058589666
+      burbuja revienta_8: -8396425536001399615
+      burbuja revienta_9: -6269194355648481278
+      burbuja_revienta_0: -8644371677372653893
+      burbuja_revienta_1: -4180479753474883618
+      burbuja_revienta_2: 1479886110873747461
+      burbuja_revienta_3: -1098873488
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

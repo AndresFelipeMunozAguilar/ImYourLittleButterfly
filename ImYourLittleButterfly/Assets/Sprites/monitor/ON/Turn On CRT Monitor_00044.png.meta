@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Turn On CRT Monitor_00044_0: 5431529062466102512
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

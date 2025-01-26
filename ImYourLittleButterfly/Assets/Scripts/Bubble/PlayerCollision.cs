@@ -21,6 +21,7 @@ public class PlayerCollision : MonoBehaviour
         if (collision.gameObject.CompareTag("Obstacle"))
         {
 
+            GetComponent<Bubble>().isActive = false;
             ResetLevel();
 
         }
@@ -31,7 +32,9 @@ public class PlayerCollision : MonoBehaviour
 
         // Efecto visual
         // QUITAME, BORRAME, ELIMINAME SI YA SE TIENE LA ANIMACIÓN
-        // animator.SetTrigger(nameTrigger);
+        animator.SetTrigger(nameTrigger);
+
+        
 
         //Esperar 1 seg y reiniciar el nivel
         Invoke("ReloadScene", animationCollisionLenght);
