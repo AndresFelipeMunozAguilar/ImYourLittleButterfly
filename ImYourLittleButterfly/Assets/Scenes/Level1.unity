@@ -1099,7 +1099,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxCollectibles: 3
-  waitBeforeChangeScene: 1
+  waitBeforeChangeScene: 0.5
   collectiblesDisplay: {fileID: 2087398540}
 --- !u!1001 &1181579131
 PrefabInstance:
@@ -2866,7 +2866,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2370869940439509130, guid: 9ad4c0e35e7809f43a82829919d98c05, type: 3}
       propertyPath: speed
-      value: 5.5
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2370869940439509130, guid: 9ad4c0e35e7809f43a82829919d98c05, type: 3}
+      propertyPath: resetDelay
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 2703190057289062896, guid: 9ad4c0e35e7809f43a82829919d98c05, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2971,7 +2975,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7421365476613752911, guid: d31a366d8e86d004e906d1980b39d9e5, type: 3}
       propertyPath: speed
-      value: 3
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 7421365476613752911, guid: d31a366d8e86d004e906d1980b39d9e5, type: 3}
       propertyPath: resetDelay
@@ -3118,11 +3122,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3095300532677868933, guid: 1e9610f70d267e94ba8e5bfc100cc9d1, type: 3}
       propertyPath: speed
-      value: 7
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 3095300532677868933, guid: 1e9610f70d267e94ba8e5bfc100cc9d1, type: 3}
       propertyPath: resetDelay
-      value: 0.6
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8180194874085780855, guid: 1e9610f70d267e94ba8e5bfc100cc9d1, type: 3}
       propertyPath: m_LocalPosition.x
